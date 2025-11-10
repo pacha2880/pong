@@ -16,7 +16,7 @@ Este proyecto demuestra el uso de programación en lenguaje ensamblador x86 de 3
 
 ### 📥 Instalar MASM32
 
-1. Descarga MASM32 desde: https://www.masm32.com/
+1. Descarga MASM32 desde: https://masm32.com/download/masm32v11r.zip
 2. Ejecuta el instalador y sigue las instrucciones
 3. Por defecto se instala en `C:\masm32\` (Recomendado)
 4. Verifica que existan las carpetas:

@@ -6,31 +6,11 @@ Implementación del clásico juego **Pong** en **MASM32** (Microsoft Assembler 3
 
 Este proyecto demuestra el uso de programación en lenguaje ensamblador x86 de 32 bits, haciendo uso de APIs de Windows para la gestión de ventanas y la manipulación directa de gráficos mediante GDI.
 
-## 📦 Componentes
-
-### 📄 Archivos del Proyecto
+## 📄 Archivos del Proyecto
 
 - **`pong.asm`** - Archivo principal con la implementación del juego
-  - Inicialización de la aplicación Windows
-  - Función `WinMain`: punto de entrada de la aplicación
-  - Procedimiento `WndPongProc`: procedimiento de ventana para procesar mensajes
-  - Lógica del juego y renderizado
 
 - **`gdibits.inc`** - Archivo de inclusión con configuración y utilidades
-  - Declaración de librerías de Windows (GDI32, USER32, KERNEL32, etc.)
-  - Prototipos de funciones locales
-  - Definición de macros auxiliares
-  - Funciones de utilidad para gráficos (GDI)
-
-## 📚 Conceptos de Bajo Nivel Implementados
-
-- **Ensamblador x86**: Instrucciones y directivas de MASM
-- **Convención de llamadas**: stdcall (estándar de Windows)
-- **Interacción con APIs de Windows**: Llamadas a funciones del SO
-- **Manipulación de memoria**: Uso de punteros y direccionamiento
-- **Procesamiento de mensajes**: Arquitectura event-driven de Windows
-- **Gráficos de bajo nivel**: GDI para renderizado
-- **Estructuras de datos**: Gestión de estructuras del SO
 
 ## 🔧 Instalación y Configuración
 
